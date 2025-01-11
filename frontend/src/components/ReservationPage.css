@@ -1,0 +1,61 @@
+.reservation-page {
+    background-image: url("../images/img8.webp"); /* URL to your image */
+    background-size: cover; /* Makes sure the image covers the whole background */
+    background-position: center center; /* Center the image */
+    background-attachment: fixed; /* Keeps the background fixed when scrolling */
+    padding: 20px; /* Adds padding around the content */
+    min-height: 100vh; /* Ensures the page takes the full height of the viewport */
+    color: white; /* Makes text white for better contrast (optional) */
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .reservation-box {
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .user-info,
+  .slot-location-info,
+  button {
+    margin-top: 15px;
+  }
+  
+  button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  select, input[type="datetime-local"] {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  select:focus, input[type="datetime-local"]:focus {
+    border-color: #4CAF50;
+    outline: none;
+  }
+  
